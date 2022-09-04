@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+    
+
+        <!-- This Section contain only display time and set alarm  -->
+      <div id="alarmtime">
+
+         
+        <div id="timeclock">
+            <h2 id="clock"></h2>
+          </div>
+    
+          <div id="setalarm">
+            <form action="">
+              <div id="alarmfield">
+                <select>
+                    <option value="Hour" id="hour">Hour</option>
+                </select>
+    
+                <select>
+                    <option value="Minute" id="min">Minute</option>
+                </select>
+    
+                <select  name="period" id="period">
+                  <option  value="PM">PM</option>
+                  <option  value="AM">AM</option>
+                </select>
+              </div>
+              <div id="control">
+                <input type="button" onclick="setAlarm()" value="Set Alarm" />
+                <input type="button" onclick="stopAlarm()" value="Stop Alarm" />
+              </div>
+            </form>
+          </div>
+      </div>
+     
+
+      <!-- This section contain only coming alarm if alarm is set -->
+
+      <div id="upcomingalarm">
+        <h3 id="alarmcomingpara">Upcoming Alarm</h3>
+        <ul id="alarmlist"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

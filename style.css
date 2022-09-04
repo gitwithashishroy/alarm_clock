@@ -1,0 +1,100 @@
+body {
+    margin-top: 20px ;
+  box-sizing: border-box;
+}
+
+.container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* This alarmtime id contain display alarm and set alarm */
+
+#alarmtime{
+    background-color: rgb(204, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    height: 40vh;
+    border-radius: 20px;
+    padding-bottom: 20px ;
+}
+
+#alarmfield {
+  /* border: 2px solid black ; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#control {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 24px 0px 0px 0px;
+}
+
+#control input {
+  background-color: rgb(234, 198, 82);
+  margin: 7px;
+  width: 80px;
+  height: 30px;
+  border-radius: 11px;
+  padding-left: 10px;
+  border-style: none;
+  cursor: pointer;
+}
+
+select {
+  margin: 7px;
+  width: 80px;
+  height: 30px;
+  border-radius: 11px;
+  padding-left: 10px;
+  border-style: none;
+  cursor: pointer;
+}
+
+
+/* This section is for all the upcoming alarm */
+
+#upcomingalarm{
+    margin-top: 20px;
+    background-color: rgb(204, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    min-height: 200px ;
+    border-radius: 20px;
+    padding-bottom: 20px ;
+}
+
+.list {
+  padding: 0px 10px 0px 20px;
+  background-color: aliceblue;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0px 0px -50px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: rgb(234, 198, 82);
+  margin: 7px 0px 7px 40px;
+  width: 80px;
+  height: 30px;
+  border-radius: 11px;
+  padding-left: 10px;
+  border-style: none;
+  cursor: pointer;
+}
+
+
