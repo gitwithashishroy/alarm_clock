@@ -1,5 +1,5 @@
 body {
-    margin-top: 20px ;
+    margin-top: 24px ;
   box-sizing: border-box;
 }
 
@@ -22,7 +22,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60vh;
+    width: 40vh;
     height: 40vh;
     border-radius: 20px;
     padding-bottom: 20px ;
@@ -73,7 +73,7 @@ select {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60vh;
+    width: 40vh;
     min-height: 200px ;
     border-radius: 20px;
     padding-bottom: 20px ;
